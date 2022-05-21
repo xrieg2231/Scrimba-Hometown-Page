@@ -27,16 +27,17 @@ header h2{
 }
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     text-align: center;
     padding: 75px;
     background-color: #86CB92;
     }
-main > div {
-    display: block;
-    margin: 0 25px;
+main > div{
+    width: 400px;
+    padding: 0px 20px 0px 20px;
 }
+
 .imgColumn{
     border-radius:50%;
     width: 100px;
@@ -49,16 +50,19 @@ footer{
 }
 #footer-card{
     width: 700px;
+    height: 200px;
     background-color: #404E7C;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     border-bottom: 5px solid black;
+    color: white;
+    margin: 20px;
 }
 #logo{
     height: 150px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
